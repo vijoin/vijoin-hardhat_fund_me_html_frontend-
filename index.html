@@ -1,14 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <title>FundMe Dapp</title>
 </head>
 <body>
-
+    <h1>Fund Me!</h1>
+    <h2>Balance: <span id="balance"></span></h2>
     <!-- Connect -->
-    <!-- Get Balance -->
-    <!-- Fund -->
-    <!-- Withdraw -->
+    <div id="container">
+        
+        <button id="connectButton">Connect Wallet</button>
+        <hr/>
+        
+        <!-- Get Balance -->
+        <button id="getBalanceButton">Get Balance</button>
+        <hr/>
+        
+        
+        <!-- Fund -->
+        <input id="ethAmountInput" placeholder="0.1"/>
+        <button id="fundButton">Fund</button>
+        <hr/>
+        
+        
+        <!-- Withdraw -->
+        <button id="withdrawButton">Withdraw</button>
+    </div>
     
+    
+    <script src="./index.js" type="module"></script>
 </body>
 </html>

@@ -1,0 +1,8 @@
+#container {
+    width: 20%;
+}
+
+#container hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
